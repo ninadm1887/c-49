@@ -1,0 +1,45 @@
+h1 {
+    color: white;
+}
+
+h2 {
+    color :aqua;
+}
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    font-style:bold;
+    font-family:'Times New Roman';
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2{
+    text-align: center;
+}
+
+body{
+    background-image: url("origami\ background.jpg") ;
+background-size: 100%;
+
+}
